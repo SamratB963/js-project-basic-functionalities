@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/products.css">
+    <script src="https://kit.fontawesome.com/6db4c4f1ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "navbar">
+       <a href="ad.html">Ads</a>
+        <a href="products.html">Products</a>
+        <a href="wishlist.html">Wishlist</a>
+     </div>
+     <h1 id = "heading">Products</h1>
+     <div id="sorts">
+        <div>
+            <label for="">Sort:</label>
+            <select name="" id="sortbyprice">
+                <option value="default">Sort By Price</option>
+                <option value="ltoh">Low to High</option>
+                <option value="htol">High to Low</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Filter By Type:</label>
+            <select id="selectFilter">
+                <option value="default">Filter By Type</option>
+                <option value="table">Table</option>
+                <option value="bed">Bed</option>
+                <option value="chair">Chair</option>
+                <option value="sofa">Sofa</option>
+            </select>
+        </div>
+    </div>
+
+     <div id = "container"></div>
+     <div id="modalBox">
+        <span id="modalClose"><button id="modalCloseButton">X</button></span>
+        <form action="" id = "modalForm">
+            <br>
+            <label for="">Enter Price</label>
+            <br>
+            <input id = "modalPrice" type="number" placeholder="Enter Price">
+            <br>
+            <br>
+            <input id = "modalSubmitBtn" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+<script src = "Scripts/products.js"></script>
+</html>

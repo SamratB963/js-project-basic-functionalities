@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/ad.css">
+</head>
+<body>
+    <div id = "navbar">
+        <a href="ad.html">Ads</a>
+        <a href="products.html">Products</a>
+        <a href="wishlist.html">Wishlist</a>
+    </div>
+    <h1 id = "heading">POST YOUR ADS</h1>
+    <div id="modalBox">
+        <span id="modalClose"><button id="modalCloseButton">X</button></span>
+        <form action="" id = "modalForm">
+            <br>
+            <br>
+            <br>
+            <label id = "otpLabel" for="">Enter OTP</label>
+            <br>
+            <input id = "otpInput" type="text" >
+            <br>
+            <br>
+            <input id ="modalSubmitBtn" type="submit" value="Submit">
+        </form>
+    </div>
+    <form action="" id = "adsForm">
+        <label for="">Type of Furniture</label>
+        <br>
+        <select name = "typeTag" id="typeTag">
+            <option value="default">Select Furniture</option>
+            <option value="table">Table</option>
+            <option value="bed">Bed</option>
+            <option value="chair">Chair</option>
+            <option value="sofa">Sofa</option>
+          </select>
+          <br>
+          <br>
+          <label for="">Year of Purchase</label>
+          <br>
+          <select name="yearTag" id="yearTag">
+            <option value="default">Select Year</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+          </select>
+          <br>
+          <br>
+          <label for="">Description</label>
+          <br>
+          <input type="text" placeholder = "Enter Description" id = "description">
+          <br>
+          <br>
+          <label for="">Price</label>
+          <br>
+          <input type="number" placeholder = "Enter Price" id = "price">
+          <br>
+          <br>
+          <input type="submit" value = "Submit" id = 'submitBtn'>
+    </form>
+
+</body>
+<script src="Scripts/ad.js"></script>
+</html>
