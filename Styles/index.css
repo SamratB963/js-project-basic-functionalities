@@ -1,0 +1,17 @@
+#navbar{
+    display:flex;
+    height:80px;
+    width:80%;
+    margin:auto;
+    background-color: orange;
+    justify-content: space-around;
+}
+#navbar a{
+    cursor:pointer;
+    text-decoration: none;
+    color:white;
+    font-size:30px;
+    vertical-align: auto;
+    text-align: center;
+    margin:auto;
+}
